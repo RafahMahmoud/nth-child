@@ -1,0 +1,35 @@
+div{
+    display: inline-block;
+    border: 1px solid black;
+    width: 1cm;
+    height: 1cm;
+    background-color: rgba(135, 206, 250, 0.745);
+    border-spacing: 7px;
+}
+/*Select All But The First Five*/
+/*div:nth-child(n+6){
+background-color: orange;
+}*/
+
+/*Select Only The First Five*/
+/*div:nth-child(-n+5){
+background-color: orange;
+}*/
+
+/*Select Every Fourth, Starting At The First*/
+/*div:nth-child(4n+1){
+background-color: orange;
+}*/
+
+/*Select The Last 5 elements*/
+/*div:nth-child(n+6){
+background-color: orange;
+}*/
+/*div:nth-last-child(-n+5){
+background-color: orange;
+}*/
+
+/*Select the Second to Last Element*/
+/*div:nth-last-child(-n+9){
+background-color: orange;
+}*/

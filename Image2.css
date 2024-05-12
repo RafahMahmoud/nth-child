@@ -1,0 +1,16 @@
+table{
+    border-spacing: 2px;
+}
+td{
+    border: 1px solid black;
+    color: white;
+    background: red;
+    width: 50px;
+    text-align: center;
+}
+td:nth-child(even) {
+    display: none;
+  }
+  div{
+    width: 40%;
+  }
